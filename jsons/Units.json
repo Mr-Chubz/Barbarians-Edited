@@ -25,19 +25,16 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Suicider",
-		"unitType": "Armored",
+		"name": "Barbarian Settler",
 		"uniqueTo": "Barbarians",
+		"unitType": "Sword",
 		"movement": 2,
-		"strength": 32,
-		"rangedStrength": 32,
-		"range": 1,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"uniques": ["[+400]% Strength <vs cities> <when attacking>", 
-					"Can only attack [City] units", 
-					"Self-destructs when attacking",
-					"Earn [33]% of the damage done to [City] units as [Gold]"],
-		"attackSound": "shot"
-	}
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects","Founds a new city"],
+		"attackSound": "nonmetalhit",
+		"hurryCostModifier": 20
+	},
 ]

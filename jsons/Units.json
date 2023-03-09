@@ -37,4 +37,13 @@
 		"attackSound": "nonmetalhit",
 		"hurryCostModifier": 20
 	},
+	{
+		"name": "Settler",
+		"uniqueTo": "Barbarians",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 30,
+		"uniques": ["Founds a new city"],
+		"hurryCostModifier": 20
+	},
 ]
